@@ -1,0 +1,119 @@
+/* =========================ROOT START================================= */
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: var(--bg-primary);
+    --bg-header: rgba(0, 0, 0, .90);
+    --bg-footer: #000000;
+    --link-primary: var(--text-light);
+    --link-primary-hover: #cacaca;
+
+    --link-secondary: #003887;
+    --link-secondary-hover: #014fb6;
+
+    --text-primary: #ffffff;
+
+    --text-secondary: #d4d4d4;
+    --text-light: #ffffff;
+    --border-default: 2px solid #979797;
+    --img-overlay: rgba(21, 24, 36, .4);
+
+    --transition-primary: 0.3s ease;
+}
+
+/* ========================= ROOT END ================================= */
+
+
+
+
+.header {
+    /* background-color: black; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 56px;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/* <!-- ---------STARTS ENDS ------------> */
+.header_logo {
+    /* background-color: blue; */
+}
+
+.header_wrapper {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 82px;
+
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--text-primary)
+}
+
+.header_link:hover,
+.header_link:active,
+.header_link:focus {
+    opacity: .75;
+}
+
+/* <!-- ---------HEADER ENDS ------------> */
+
+
+/* <!-- ---------INTRO STARTS ------------> */
+.intro {
+    height: 100vh;
+    background: url(../img/intro-br.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+}
+
+.intro_title {
+    max-width: 619px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: var(--text-primary);
+    margin-bottom: 22px;
+}
+
+.intro_subtitle {
+    max-width: 546px;
+    color: var(--text-primary);
+    margin-bottom: 59px;
+}
+
+.search-form-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form_field {
+    background: transparent url(../img/svg/circle-ico.svg) no-repeat left center;
+    background-size: 20px;
+    border: 0;
+}
+
+/* <!-- ---------INTRO ENDS ------------> */
