@@ -39,10 +39,28 @@
     margin: 0 auto;
 }
 
-/* <!-- ---------STARTS ENDS ------------> */
-.header_logo {
-    /* background-color: blue; */
+.wrapper-full {
+    max-width: 1262px;
+    margin: 0 auto;
 }
+
+.section-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    position: relative;
+}
+
+.section-title::after {
+    width: 253px;
+    height: 3px;
+    display: block;
+    background-color: #003cff;
+    content: '';
+}
+
+/* <!-- ---------STARTS ENDS ------------> */
+
 
 .header_wrapper {
     /* background-color: aquamarine; */
@@ -84,7 +102,7 @@
 
 /* <!-- ---------INTRO STARTS ------------> */
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/intro-br.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
@@ -141,3 +159,91 @@
     color: var(--text-secondary);
 }
 
+/* <!-- ---------INTRO ENDS ------------> */
+
+
+/* <!-- ---------SEC BENEF starts ------------> */
+.benefits {
+    margin-bottom: 131px;
+}
+
+.benefits_wrap {
+    max-width: 1262px;
+    margin: 0 auto;
+    background-color: var(--bg-primary);
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, .10);
+    position: relative;
+}
+
+.benefits_title {
+    width: 100%;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 99px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: var(--bg-primary);
+    margin-bottom: 120px;
+}
+
+.benefits_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0 100px;
+}
+
+.benefits_card {
+    grid-column: span 1;
+    margin-bottom: 112px;
+}
+
+.benefits_card-pic {
+    margin-bottom: 26px;
+}
+
+.benefits_card-title {
+    margin-bottom: 39px;
+}
+
+.benefits_card-disc {
+    margin-bottom: 37px;
+}
+.benefits_card-href{
+    padding-right: 60px;
+    background: url(../img/svg/arr-ico.svg) no-repeat 95% 50%;
+}
+.benefits_card-href:active,.benefits_card-href:hover,.benefits_card-href:focus{
+    padding-right: 60px;
+    background: url(../img/svg/arr-ico.svg) no-repeat 100% 50%;
+}
+/* <!-- ---------SEC BENEF ends ------------> */
+
+/* <!-- ---------SEC BENEF ENDS ------------> */
+.places {
+    margin-bottom: 131px;
+}
+
+.places_caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.places_view-all {
+    padding-right: 59px;
+    text-decoration: none;
+    background: url(../img/svg/arr-ico.svg) no-repeat right center;  
+}
+
+.places_view-all:hover,
+.places_view-all:active,
+.places_view-all:focus {
+    opacity: .75;
+}
+
+/* <!-- ---------SEC PLACES START ------------> */
