@@ -257,7 +257,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
-    background-color: #979797;
+    /* background-color: #979797; */
 }
 
 .places_card-large {
@@ -273,6 +273,7 @@
 .places_card-pic-lg {
     height: 354px;
 }
+
 .places_card-pic-sm {
     height: 283px;
 }
@@ -315,8 +316,106 @@
     color: var(--bg-primary);
 
 }
-.places_card-small{
-   grid-column: span 2;
+
+.places_card-small {
+    grid-column: span 2;
 }
 
 /* <!-- ---------SEC PLACES START ------------> */
+
+
+/* <!-- -- ---------SEC TOURS STARTS ------------> */
+.tours {
+    margin-bottom: 160px;
+
+}
+
+.tours_tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+
+
+}
+
+.tour_title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour_pic_wrap {
+    overflow: hidden;
+}
+
+.tour_pic {
+    display: block;
+    height: 354px;
+    object-fit: cover;
+}
+
+.tour_pic:hover {
+    scale: 104%;
+}
+
+.tour_desc {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+
+    padding-right: 40px;
+    margin-bottom: 58px;
+}
+
+.tours_href {
+    text-decoration: none;
+    padding-right: 50px;
+    background: url(../img/svg/arr-ico.svg) no-repeat 95% center;
+}
+
+.tour_info {
+    padding-left: 10px;
+}
+
+.tours_href:hover,
+.tours_href:active,
+.tours_href:focus {
+    background: url(../img/svg/arr-ico.svg) no-repeat 100% center;
+    transition: .2s all;
+}
+
+/* <!-- -- ---------SEC TOURS ENDS ------------>  */
+
+
+/* <!-- -- ---------SEC TOP STARTS ------------> */
+.top {
+    margin-bottom: 86px;
+}
+
+.top_card_wrapper {
+      display: grid;
+    grid-template-columns: repeat(3, 386px);
+    justify-content: space-between;
+
+}
+
+.top_card {
+    background-color: #9900ff;
+    padding-bottom: 58px;
+
+}
+
+.top_title {
+    margin-bottom: 54px;
+}
+
+.top_pic {
+   width: 100%;
+}
+
+
+
+/* <!-- -- ---------SEC TOP ENDS ----------- */
