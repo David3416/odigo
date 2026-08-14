@@ -212,14 +212,19 @@
 .benefits_card-disc {
     margin-bottom: 37px;
 }
-.benefits_card-href{
+
+.benefits_card-href {
     padding-right: 60px;
     background: url(../img/svg/arr-ico.svg) no-repeat 95% 50%;
 }
-.benefits_card-href:active,.benefits_card-href:hover,.benefits_card-href:focus{
+
+.benefits_card-href:active,
+.benefits_card-href:hover,
+.benefits_card-href:focus {
     padding-right: 60px;
     background: url(../img/svg/arr-ico.svg) no-repeat 100% 50%;
 }
+
 /* <!-- ---------SEC BENEF ends ------------> */
 
 /* <!-- ---------SEC BENEF ENDS ------------> */
@@ -232,18 +237,86 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 36px;
 }
 
 .places_view-all {
     padding-right: 59px;
     text-decoration: none;
-    background: url(../img/svg/arr-ico.svg) no-repeat right center;  
+    background: url(../img/svg/arr-ico.svg) no-repeat right center;
 }
 
 .places_view-all:hover,
 .places_view-all:active,
 .places_view-all:focus {
     opacity: .75;
+}
+
+
+.places_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    background-color: #979797;
+}
+
+.places_card-large {
+    grid-column: span 3;
+}
+
+.places_card-pic {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.places_card-pic-lg {
+    height: 354px;
+}
+.places_card-pic-sm {
+    height: 283px;
+}
+
+.places_card {
+    position: relative;
+    overflow: hidden;
+}
+
+.places_card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.places_card:hover .places_card-pic {
+    scale: 103%;
+
+}
+
+.places_card::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 24, 36, .20);
+    top: 0;
+    left: 0;
+}
+
+.places_card-title {
+    position: absolute;
+    z-index: 3;
+    bottom: 27px;
+    left: 29px;
+    color: var(--bg-primary);
+
+}
+.places_card-small{
+   grid-column: span 2;
 }
 
 /* <!-- ---------SEC PLACES START ------------> */
