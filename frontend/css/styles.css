@@ -32,6 +32,13 @@
     top: 0;
     width: 100%;
     padding-top: 56px;
+    transition: all 0.3s;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+.header_active {
+    background-color: black;
 }
 
 .wrapper {
@@ -417,16 +424,14 @@
     margin-bottom: 45px;
 }
 
-.top_desc {
-    /* margin-bottom: 31; */
-}
 
 .top_pic {
     width: 100%;
     height: 377px;
     margin-bottom: 45px;
 }
-.top_pic_overlay{
+
+.top_pic_overlay {
     background-color: #000000;
     opacity: .6;
     height: 55px;
