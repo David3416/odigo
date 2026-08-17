@@ -396,7 +396,7 @@
 }
 
 .top_card_wrapper {
-      display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 386px);
     justify-content: space-between;
 
@@ -404,18 +404,69 @@
 
 .top_card {
     background-color: #9900ff;
-    padding-bottom: 58px;
-
+    margin-bottom: 58px;
+    height: 567px;
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
 }
 
 .top_title {
-    margin-bottom: 54px;
+    margin-bottom: 45px;
+}
+
+.top_desc {
+    /* margin-bottom: 31; */
 }
 
 .top_pic {
-   width: 100%;
+    width: 100%;
+    height: 377px;
+    margin-bottom: 45px;
+}
+.top_pic_overlay{
+    background-color: #000000;
+    opacity: .6;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
 }
 
+.top_titles_wrap {
+    position: relative;
+    height: 377px;
+}
+
+.top_titles {
+    z-index: 6;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    color: var(--bg-primary);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.see_more {
+    width: 118px;
+    height: 42px;
+    background-color: var(--button-primary);
+    text-decoration: none;
+    color: var(--bg-primary);
+    padding :11px 16px;
+}
+
+.see_more:hover,
+.see_more:active,
+.see_more:focus {
+    background-color: #014fb6;
+
+}
 
 
 /* <!-- -- ---------SEC TOP ENDS ----------- */
