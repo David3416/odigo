@@ -21,53 +21,51 @@
 }
 
 /* ========================= ROOT END ================================= */
-
-
-
-
-.header {
-    /* background-color: black; */
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding-top: 56px;
-}
-
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .wrapper-full {
     max-width: 1262px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 35px;
     line-height: 42px;
     position: relative;
+    padding-bottom: 10px;
 }
 
 .section-title::after {
+    display: block;
+    content: '';
     width: 253px;
     height: 3px;
-    display: block;
-    background-color: #003cff;
-    content: '';
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* <!-- ---------STARTS ENDS ------------> */
-
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 .header_wrapper {
-    /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 
 .header_list {
@@ -77,7 +75,6 @@
 
 .header_item {
     margin-right: 82px;
-
 }
 
 .header_item:last-child {
@@ -87,8 +84,8 @@
 .header_link {
     font-size: 18px;
     line-height: 24px;
+    color: rgb(255, 0, 0);
     text-decoration: none;
-    color: var(--text-primary)
 }
 
 .header_link:hover,
@@ -100,26 +97,32 @@
 /* <!-- ---------HEADER ENDS ------------> */
 
 
+
+
+
 /* <!-- ---------INTRO STARTS ------------> */
 .intro {
     min-height: 100vh;
     background: url(../img/intro-br.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
+    padding-bottom: 223px;
 }
 
 .intro_title {
-    max-width: 619px;
-    font-size: 50px;
+ max-width: 619px;
     font-weight: 500;
+    font-size: 50px;
     line-height: 60px;
-    color: var(--text-primary);
+    color: white;
     margin-bottom: 22px;
 }
 
 .intro_subtitle {
     max-width: 546px;
-    color: var(--text-primary);
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
     margin-bottom: 59px;
 }
 
@@ -130,26 +133,32 @@
 
 .search-form_field {
     width: 297px;
-    background: transparent url(../img/svg/circle-ico.svg) no-repeat left top;
+    background: transparent url(../img/svg/circle-ico.svg) no-repeat left 6px;
     background-size: 20px;
     border: 0;
-    border-bottom: 2px solid var(--text-primary);
+    border-bottom: 2px solid #BFC0C5;
     margin-right: 60px;
-    padding-bottom: 22px;
     padding-left: 43px;
-    color: var(--text-primary);
+    padding-bottom: 22px;
+    font-weight: 500;
     font-size: 18px;
+    color: #fff;
 }
 
 .search-form_field::placeholder {
-    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
 }
 
 .seach-form_submit {
     padding: 15px 39px;
     text-transform: uppercase;
-    background-color: var(--button-primary);
-    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background: #1B7DFF;
+    border: 0;
 }
 
 .seach-form_submit:hover,
@@ -168,25 +177,24 @@
 }
 
 .benefits_wrap {
-    max-width: 1262px;
+     max-width: 1262px;
+    background-color: #fff;
     margin: 0 auto;
-    background-color: var(--bg-primary);
-    box-shadow: 0px 2px 20px rgba(21, 24, 36, .10);
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     position: relative;
 }
 
 .benefits_title {
     width: 100%;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 35px;
     line-height: 42px;
-    padding: 99px 100px;
+    padding: 93px 100px 88px 100px;
     position: absolute;
     top: 0;
     left: 0;
     transform: translateY(-100%);
-    background-color: var(--bg-primary);
-    margin-bottom: 120px;
+    background-color: #fff;
 }
 
 .benefits_cards {
@@ -202,7 +210,8 @@
 }
 
 .benefits_card-pic {
-    margin-bottom: 26px;
+       max-width: 66px;
+    margin-bottom: 37px;
 }
 
 .benefits_card-title {
@@ -397,7 +406,7 @@
 
 .top_card_wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 386px);
+    /* grid-template-columns: repeat(3, 386px); */
     justify-content: space-between;
 
 }
@@ -424,7 +433,8 @@
     height: 377px;
     margin-bottom: 45px;
 }
-.top_pic_overlay{
+
+.top_pic_overlay {
     background-color: #000000;
     opacity: .6;
     height: 55px;
@@ -456,7 +466,7 @@
     background-color: var(--button-primary);
     text-decoration: none;
     color: var(--bg-primary);
-    padding :11px 16px;
+    padding: 11px 16px;
 }
 
 .see_more:hover,
@@ -465,11 +475,30 @@
     background-color: #014fb6;
 
 }
-.top_titles_wrap{
+
+.top_titles_wrap {
     position: absolute;
     bottom: 15px;
     left: 25px;
 }
-.see_more {}
 
 /* <!-- -- ---------SEC TOP ENDS ----------- */
+
+/* <!-- -- ---------SEC FOOTER START ------------> */
+.footer {
+    background-color: var(--bg-footer);
+}
+
+.footer_item {
+    background-color: #014fb6;
+}
+
+
+.header_logo_footer {
+
+
+    width: 170px;
+    height: 119px;
+}
+
+/* <!-- -- ---------SEC FOOTER ENDS ------------> */
