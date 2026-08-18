@@ -478,19 +478,42 @@
 /* <!-- -- ---------SEC FOOTER START ------------> */
 .footer {
     background-color: var(--bg-footer);
+    padding: 119px 0;
 }
-.footer_item{
-    background-color: #014fb6;
-}
-.footer_logo {
+
+.footer_item {
+    /* background-color: #014fb6; */
+    display: flex;
    
 }
 
+.footer_logo {
+    width: 50%;
+}
+
+.footer_item_title {
+    font-size: 24px;
+    color: var(--bg-primary);
+}
+
+.footer_nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+justify-content: space-between;
+}
+
 .header_logo_footer {
-    
-   
+
+
     width: 170px;
     height: 119px;
+}
+
+.footer_menu_link {
+    color: var(--bg-primary);
+    text-decoration: none;
+    display: flex;
 }
 
 /* <!-- -- ---------SEC FOOTER ENDS ------------> */
