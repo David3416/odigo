@@ -130,7 +130,7 @@
 }
 
 .intro_title {
- max-width: 619px;
+    max-width: 619px;
     font-weight: 500;
     font-size: 50px;
     line-height: 60px;
@@ -197,7 +197,7 @@
 }
 
 .benefits_wrap {
-     max-width: 1262px;
+    max-width: 1262px;
     background-color: #fff;
     margin: 0 auto;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -230,7 +230,7 @@
 }
 
 .benefits_card-pic {
-       max-width: 66px;
+    max-width: 66px;
     margin-bottom: 37px;
 }
 
@@ -444,7 +444,6 @@
 
 .top_title {
     margin-bottom: 45px;
-}
 
 
     height: 377px;
@@ -453,71 +452,73 @@
 
 .top_pic_overlay {
 
-.top_pic_overlay {
-    background-color: #000000;
-    opacity: .6;
-    height: 55px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
-}
+    .top_pic_overlay {
+        background-color: #000000;
+        opacity: .6;
+        height: 55px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+    }
 
-.top_titles_wrap {
-    position: relative;
-    height: 377px;
-}
+    .top_titles_wrap {
+        position: relative;
+        height: 377px;
+    }
 
-.top_titles {
-    z-index: 6;
-    position: absolute;
-    bottom: 15px;
-    left: 25px;
-    color: var(--bg-primary);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
+    .top_titles {
+        z-index: 6;
+        position: absolute;
+        bottom: 15px;
+        left: 25px;
+        color: var(--bg-primary);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-.see_more {
-    width: 118px;
-    height: 42px;
-    background-color: var(--button-primary);
-    text-decoration: none;
-    color: var(--bg-primary);
-    padding: 11px 16px;
-}
+    .see_more {
+        width: 118px;
+        height: 42px;
+        background-color: var(--button-primary);
+        text-decoration: none;
+        color: var(--bg-primary);
+        padding: 11px 16px;
+    }
 
-.see_more:hover,
-.see_more:active,
-.see_more:focus {
-    background-color: #014fb6;
-
-}
-
-.top_titles_wrap {
-    position: absolute;
-    bottom: 15px;
-    left: 25px;
-}
-
-/* <!-- -- ---------SEC TOP ENDS ----------- */
-
-/* <!-- -- ---------SEC FOOTER START ------------> */
-.footer {
-    background-color: var(--bg-footer);
-}
-
-.footer_item {
-    background-color: #014fb6;
-}
+    .see_more:hover,
+    .see_more:active,
+    .see_more:focus {
+        background-color: #014fb6;
 
 
-.header_logo_footer {
+    }
+
+    .top_titles_wrap {
+        position: absolute;
+        bottom: 15px;
+        left: 25px;
+    }
 
 
-    width: 170px;
-    height: 119px;
-}
+    /* <!-- -- ---------SEC TOP ENDS ----------- */
 
-/* <!-- -- ---------SEC FOOTER ENDS ------------> */
+    /* <!-- -- ---------SEC FOOTER START ------------> */
+    .footer {
+        background-color: var(--bg-footer);
+    }
+
+    .footer_item {
+        background-color: #014fb6;
+    }
+
+
+    .header_logo_footer {
+
+
+        width: 170px;
+        height: 119px;
+    }
+
+    /* <!-- -- ---------SEC FOOTER ENDS ------------> *//
