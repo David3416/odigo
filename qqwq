@@ -1,0 +1,66 @@
+[33mcommit ce2326524f1ef6cdced0c888de4f72774725253b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/footer[m[33m, [m[1;31morigin/feature/footer[m[33m)[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Tue Aug 18 16:54:17 2026 +0300
+
+    footer fin
+
+[33mcommit f749519fd2fb07af1c3a92484c7a8ca112fcca53[m
+Author: David3415 <104300915+David3415@users.noreply.github.com>
+Date:   Mon Aug 17 21:22:10 2026 +0300
+
+    WIP:footer started
+
+[33mcommit 054d95676c9945b5548a974d2cc173a7e688fd43[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: a533b6e 12bef32
+Author: David3415 <104300915+David3415@users.noreply.github.com>
+Date:   Mon Aug 17 20:29:34 2026 +0300
+
+    temp
+
+[33mcommit 12bef3203807c03cc4dc5ef7f9ef62695aaed8a1[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Mon Aug 17 13:38:23 2026 +0300
+
+    WIP
+
+[33mcommit a533b6e0e4244ce8b580bcacb939250c11c6842e[m
+Author: David3415 <104300915+David3415@users.noreply.github.com>
+Date:   Fri Aug 14 20:43:06 2026 +0300
+
+    WIP:2
+
+[33mcommit e5b6afdb7e638f303c4bf22297bf1672c5cc4278[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Fri Aug 14 18:04:40 2026 +0300
+
+    WIP:
+
+[33mcommit 3dd6667c1006bb5d0ac3a650e4178e3802fb99a6[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Fri Aug 14 15:08:25 2026 +0300
+
+    WIP:to divide into commits
+
+[33mcommit 4474f540015834edbbc2bdecec885a9fc0a7afdc[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Fri Aug 14 11:56:52 2026 +0300
+
+    WIP:places
+
+[33mcommit 819b486a63ae4a5adf5941da03993773064a2306[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Wed Aug 12 12:04:23 2026 +0300
+
+    WIP:buttons bloc add
+
+[33mcommit 7c2d7c3a641b76383a9b314299f8538ff92abc6d[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Wed Aug 12 07:50:31 2026 +0300
+
+    WIP: header add and main started
+
+[33mcommit 48882a50c7b44dedafc9598366fc65f90899af71[m
+Author: David3415 <dgagiev@gmail.com>
+Date:   Mon Aug 10 17:51:30 2026 +0300
+
+    Init
