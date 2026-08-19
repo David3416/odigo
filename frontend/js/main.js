@@ -4,8 +4,17 @@
         if (window.pageYOffset > 50) {
             header.classList.add('header_active');
         }
-        else if(window.pageYOffset < 50){
+        else if (window.pageYOffset < 50) {
             header.classList.remove('header_active');
         }
     };
+}());
+
+// burger
+
+(function () {
+    const burger = document.querySelector('.burger');
+
+    console.log(burger);
+
 }());
